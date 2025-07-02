@@ -10,4 +10,17 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello!, $test
+  second:
+    needs:
+      first
+    runs-on: ubuntu-latest
+    env:
+      names: prod
+    steps:
+      - name: test second program
+        run: |
+          echo test
+          echo $names
+       
+
       
