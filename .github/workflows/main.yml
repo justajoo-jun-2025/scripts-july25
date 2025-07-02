@@ -1,11 +1,12 @@
 name: test-code
-on: dispatch_workflow
+on:
+  workflow_dispatch
 jobs:
   fisrts-job:
     runs-on: buntu-latest
     env:
       name: pk
     steps:
-      -name:test-job
-       echo "hello ${name}"
+       -name:test-job
+         run: echo "hello"
     
