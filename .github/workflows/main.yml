@@ -1,5 +1,6 @@
 name: Ctest
 on:
+  push:
   workflow_dispatch:
 jobs:
   first:
