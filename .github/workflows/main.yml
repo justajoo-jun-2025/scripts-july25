@@ -4,7 +4,9 @@ on:
 jobs:
   first:
     runs-on: ubuntu-latest
+    env:
+      test: dev
     steps:
       - name: Run a one-line script
-        run: echo Hello!
+        run: echo Hello!, $test
       
