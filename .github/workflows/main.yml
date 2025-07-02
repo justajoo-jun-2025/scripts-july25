@@ -2,7 +2,7 @@ name: test-code
 on:
   workflow_dispatch:
 jobs:
-  fisrts-job:
+  fisrts:
     runs-on: buntu-latest
     env:
       name: pk
