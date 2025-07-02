@@ -1,10 +1,10 @@
-name: test-code
+name: Ctest
 on:
   workflow_dispatch:
 jobs:
-  fisrts:
-    runs-on: buntu-latest
+  first:
+    runs-on: ubuntu-latest
     steps:
-      - name: test the flow
-        run: echo Hello, world!
+      - name: Run a one-line script
+        run: echo Hello!
       
