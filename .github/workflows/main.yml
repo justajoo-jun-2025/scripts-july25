@@ -7,6 +7,6 @@ jobs:
     env:
       name: pk
     steps:
-       - name: test-job
-         run: echo hello
+      - name: test the flow
+        run: echo Hello, world!
       
