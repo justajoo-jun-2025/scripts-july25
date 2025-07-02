@@ -4,8 +4,6 @@ on:
 jobs:
   fisrts:
     runs-on: buntu-latest
-    env:
-      name: pk
     steps:
       - name: test the flow
         run: echo Hello, world!
