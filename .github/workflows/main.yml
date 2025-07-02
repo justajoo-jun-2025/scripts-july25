@@ -1,6 +1,6 @@
 name: test-code
 on:
-  workflow_dispatch
+  workflow_dispatch:
 jobs:
   fisrts-job:
     runs-on: buntu-latest
@@ -10,4 +10,3 @@ jobs:
        - name: test-job
          run: echo hello
       
-    
