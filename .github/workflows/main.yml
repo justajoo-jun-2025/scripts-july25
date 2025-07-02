@@ -1,0 +1,10 @@
+name: test-code
+on: dispatch_workflow
+jobs:
+  fisrts-job:
+    env:
+      name: pk
+    steps:
+      -name:test-job
+       echo "hello ${name}"
+    
